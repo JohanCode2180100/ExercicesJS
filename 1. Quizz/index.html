@@ -1,17 +1,90 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quizz JS</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!--
+        1. Creer l'interface, les blocs, les boutons "radio" OK
+        2.Styliser le tout OK
+        3.Récuperer les données au clic 
+        4.Comparer les résultats
+        5. Afficher des phrases en fonction des résultats
+        6.Changer la couleur des blocs + animation en fonction des résultats
 
+    -->
 
+      <header>
+        <h1>FORMATION 2023</h1>
 
+        <h2>Questionnaire Process : 5 Questions</h2>
+      </header>
+
+      <main>
+        <section>
+          <div class="form">
+            <p>
+              Question n°1 : Quel est le principe de réaliser une sanitation de
+              la machine toute les 12 et 24h ?
+            </p>
+            <br />
+            <input type="radio" name="Rep1" id="Rep1" /> De garder un état
+            propre de la machine<br />
+            <input type="radio" name="Rep1" id="Rep1" /> Désinfecter la zone<br />
+            <input type="radio" name="Rep1" id="Rep1" /> Pour faciliter le
+            nettoyage des 72 heures<br />
+          </div>
+          <div class="form">
+            <p>Question n°2 : Quel est le rôle de la barrière vapeur ?</p>
+            <br />
+            <input type="radio" name="Rep2" id="Rep2" /> De garder un état
+            propre de la machine<br />
+            <input type="radio" name="Rep2" id="Rep2" /> De protéger le circuit
+            produit en vapeur en cas de problème sur l'installation<br />
+            <input type="radio" name="Rep2" id="Rep2" /> Pour garder stérile la
+            machine<br />
+          </div>
+          <div class="form">
+            <p>Question n°3 : Que signifie N.E.P ?</p>
+            <br />
+            <input type="radio" name="Rep3" id="Rep3" /> Nettoyage Encadré
+            Périodique<br />
+            <input type="radio" name="Rep3" id="Rep3" /> Nettoyage en place<br />
+            <input type="radio" name="Rep3" id="Rep3" /> Nettoyage en palier
+            <br />
+          </div>
+          <div class="form">
+            <p>
+              Question n°4 :Quelle est la taille correct d'un cordon de
+              thermoscellage ?
+            </p>
+            <br />
+            <input type="radio" name="Rep4" id="Rep4" /> 1 mm<br />
+            <input type="radio" name="Rep4" id="Rep4" /> 2 mm<br />
+            <input type="radio" name="Rep4" id="Rep4" /> 3 mm<br />
+          </div>
+          <div class="form">
+            <p>
+              Question n°5 : Lors de la stérilisation en place, quel est le
+              circuit vapeur utilisé ?
+            </p>
+            <br />
+            <input type="radio" name="Rep5" id="Rep5" /> Petit Débit<br />
+            <input type="radio" name="Rep5" id="Rep5" /> Grand débit<br />
+          </div>
+        </section>
+      </main>
+
+      <footer></footer>
+    </div>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
